@@ -1,5 +1,6 @@
 package com.example.iyashwant.spiderprojectprototype;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +8,11 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+=======
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+>>>>>>> origin/master
 import android.widget.Spinner;
 
 import java.util.ArrayList;
@@ -16,7 +22,10 @@ public class signup extends AppCompatActivity {
    // String[] country = {"Who am I? ","Producer","director"};
 
     String[] whoN={"Who am I? ","Actor","Actress","Music Director","Singer","Producer","Director","Co-Director"};
+<<<<<<< HEAD
     String name;
+=======
+>>>>>>> origin/master
     //int flags[] = {R.drawable.india, R.drawable.china, R.drawable.australia, R.drawable.portugle, R.drawable.america, R.drawable.new_zealand};
 
     @Override
@@ -31,6 +40,7 @@ public class signup extends AppCompatActivity {
         CustomAdapterSpinner customAdapter=new CustomAdapterSpinner(getApplicationContext(),whoN);
         spin.setAdapter(customAdapter);
 
+<<<<<<< HEAD
         final EditText name1 =(EditText)findViewById(R.id.name1);
 
 
@@ -49,6 +59,8 @@ public class signup extends AppCompatActivity {
             }
         });
 
+=======
+>>>>>>> origin/master
 
 
     }

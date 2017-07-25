@@ -8,6 +8,7 @@
     android:background="@mipmap/wall"
     tools:context="com.example.iyashwant.spiderprojectprototype.signup">
 
+<<<<<<< HEAD
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="3sp"
@@ -26,12 +27,17 @@
 
 
     </LinearLayout>
+=======
+>>>>>>> origin/master
 
     <EditText
 
         android:layout_width="300dp"
         android:layout_height="40dp"
+<<<<<<< HEAD
         android:id="@+id/name1"
+=======
+>>>>>>> origin/master
         android:paddingLeft="20dp"
         android:layout_gravity="center"
         android:layout_alignParentTop="true"
@@ -137,9 +143,16 @@
         android:layout_height="40dp" />
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/button1"
         android:layout_width="350dp"
         android:layout_height="40dp"
+=======
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+
+>>>>>>> origin/master
         android:layout_marginTop="90dp"
         android:background="@drawable/button_round"
         android:gravity="center"
